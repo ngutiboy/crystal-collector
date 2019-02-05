@@ -8,6 +8,7 @@
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
+    position: relative;
     
    
 
@@ -26,6 +27,7 @@ h1{
 body{
     background-image: url("https://media.giphy.com/media/Gb0fYjAiMvNVC/giphy.gif"); 
 }
+
 
 
 #crystalBox1{
