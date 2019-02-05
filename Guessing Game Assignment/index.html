@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery</title>
+    <link rel="stylesheet" type = "text/css" href="css/style1.css">
+</head>
+
+<body>
+    
+            <div class="header">
+                    <h1>Crystal Collector</h1>
+                </div>
+                <div class="instructions">
+                    <h3>Here's how you play the game</h3>
+                    </br>
+                    <ol>
+                        <li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+                        <li>There are four crystals below.</li>
+                        <ul>
+                            <li id="blue">Blue</li>
+                            <li id="green">Green</li>
+                            <li id="red">Red</li>
+                            <li id="yellow">Yellow</li>
+                        </ul>
+                        <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+                        <li>You win the game by matching your total score to the random number.</li>
+                        <li>You lose the game if your total score goes above the random number.</li>
+                        <li>The value of each crystal is hidden from you until you click on it.</li>
+                        <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                    </ol>
+                </div>
+
+        <div id ="randomNumberBox">
+            <span id ="randomNumber"></span>
+        </div>
+
+        <div id ="winLossBox">
+            <p>Win:<span id="win"></span></p>
+            <p>Loss:<span id="loss"></span></p>
+        </div>
+
+        <div id ="CrystalBoxDiv" class ="clearfix">
+            <div id="crystalBox1" class="crystal"></div>
+            <div id="crystalBox2" class="crystal"></div>
+            <div id="crystalBox3" class="crystal"></div>
+            <div id="crystalBox4" class="crystal"></div>
+        </div>
+
+        <div id ="totalScoreBox">
+            <span id="totalScore"></span>
+        </div>
+        <div id="currentScoreBox">
+            <span id="currentScore"></span>
+        </div>
+
+    
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="javascript/script.js"></script>
+</html>
+    
+        

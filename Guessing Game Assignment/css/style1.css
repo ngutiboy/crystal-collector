@@ -1,0 +1,45 @@
+
+.clearfix::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+.crystal {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    
+   
+
+}
+.jumbotron{
+    width: 50%;
+}
+h1{
+    
+    background-color: azure;
+    
+    padding: 10px;
+    margin-block-end: 10px;
+   
+}
+body{
+    background-image: url("https://media.giphy.com/media/Gb0fYjAiMvNVC/giphy.gif"); 
+}
+
+
+#crystalBox1{
+    background-color:blue;
+}
+#crystalBox2{
+    background-color:green;
+}
+#crystalBox3{
+    background-color:red;
+}
+#crystalBox4{
+    background-color:yellow;
+}
+#instructions{
+background-color: aqua;
+}
